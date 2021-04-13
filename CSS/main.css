@@ -81,6 +81,7 @@
 }
 
 .main-sponsor {
+    margin-top: 20px;
     background: #E5E5E5;
     height: 60vh;
 }
@@ -107,23 +108,36 @@
     line-height: 30px;
 }
 
+.sponsor-logo {
+    width: 300px;
+}
+
+button {
+    margin-left: 60px;
+    padding: 20px 40px;
+    border-radius: 4px;
+    border-style: none;
+    color: #FFF;
+    background: #E7332B;
+
+}
+
+
 @media (max-width: 800px) {
-
-    div#train-with-us-illustration {order: 1;}
-
-    div#train-with-us {order: 2;}
-
+    
     .why {
-        background: rgb(141, 248, 164);
         /* height: 80vh; */
         padding: 15px 20px;
         display: inline-block;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .train-with-us {
         background: #FFF;
+        
         width: 100%;
         overflow: unset;
     }
@@ -133,6 +147,7 @@
         color: #000;
         font-weight: 600;
         padding-bottom: 20px;
+        padding-left: 20px;
     }
 
     .train-head-intro {
@@ -143,6 +158,54 @@
         padding-bottom: 25px;
     }
 
+    
+
+    .benefits-list ul li {
+        list-style: none;
+        padding: 8px 0px;
+        color: #1A406B;
+    }
+
+    .train-with-us-illustration {
+        padding-top: 400px;
+        /* size: 500px; */
+        margin: auto;
+    }
+    
+    .train-with-us-illustration img {
+        width: 50%;
+
+    }
+
+    .main-sponsor {
+        background: #E5E5E5;
+    }
+    
+    .sponsor-head {
+        text-transform: uppercase;
+        color: #1A406B;
+        font-weight: 600;
+        padding-top: 40px;
+        padding-left: 60px;
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+    
+    .sponsor {
+        display: flex;
+        width: 100%;
+        padding: 30px 60px;
+    }
+    
+    .sponsor-details {
+        width: 100%;
+        font-size: 10px;
+        line-height: 18px;
+    }
+    
+}
+
+@media (max-width: 400px) {
     .benefits-list {
         float: left;
         width: 100%;
@@ -150,11 +213,5 @@
         padding-bottom: 10px;
     }
 
-    .benefits-list ul li {
-        list-style: none;
-        padding: 8px 0px;
-        color: #1A406B;
-    }
-    
     
 }
