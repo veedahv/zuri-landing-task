@@ -242,9 +242,12 @@ a:hover {
     width: 100%;
 }
 
+.sponsor-section {
+    background: #EFFDFE;
+}
+
 .main-sponsor {
     margin-top: 20px;
-    background: #EFFDFE;
 }
 
 .sponsor-head {
