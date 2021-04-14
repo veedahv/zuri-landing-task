@@ -234,7 +234,7 @@ a {
     background-size: 10px;
 }
 .option-light {
-    opacity: .8;
+    /* opacity: .8; */
 }
 option {
     background: #ffffff;
