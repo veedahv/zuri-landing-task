@@ -4,23 +4,19 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
 ul {
     list-style: none;
 }
-
 a {
     display: inline-block;
     text-decoration: none;
     color: inherit;
 }
-
 .container {
     max-width: 1100px;
     padding: 40px 50px;
     margin: auto;
 }
-
 .btn:first-of-type {
     margin-right: 8px;
 }
@@ -56,7 +52,6 @@ a {
 .navigation-icon::before {
     top: -9px;
 }
-
 .hamburg {
     background: transparent;
     border: none;
@@ -64,11 +59,9 @@ a {
     display: none;
     margin-top: 7px;
 }
-
 .nav-links {
     padding: 2px 10px;
 }
-
 .btn {
     border: none;
     border-radius: 2px;
@@ -76,7 +69,6 @@ a {
     background: #E7332B;
     color: #FFFFFF;
 }
-
 .header {
     background: #EFFDFE;
     position: absolute;
@@ -85,7 +77,6 @@ a {
     z-index: 5;
     width: 100%;
 }
-
 .nav {
     display: flex;
     max-width: 1100px;
@@ -96,22 +87,18 @@ a {
     padding: 15px 50px;
     flex-wrap: wrap;
 }
-
 .nav-ul {
     display: flex;
     align-items: center;
     margin-left: -18px;
     margin-right: -18px;
 }
-
 .nav-li {
     padding: 5px 8px;
 }
-
 .active {
     border-bottom: 5px solid #E7332B;
 }
-
 .home {
     background: #EFFDFE;
     color: #1A406B;
@@ -119,156 +106,124 @@ a {
     padding-top: 60px;
     padding-bottom: 50px;
 }
-
 .home-body {
     display: flex;
 }
 .home-intro {
     flex-basis: 55%;
 }
-
 .intro-head {
     font-size: 35px;
     max-width: 400px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
 .intro-note {
     margin-bottom: 30px;
 }
-
 .home-illustration-box {
     flex-basis: 45%;
 }
-
 .home-illustration {
     width: 100%;
 }
-
 .why {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-
 .train-with-us {
     flex-basis: 55%;
 }
-
 .train-head {
     text-transform: uppercase;
     color: #000;
     font-size: 18px;
     margin-bottom: 25px;
 }
-
 .train-head-intro {
     font-size: 18px;
     color: #1A406B;
     margin-bottom: 15px;
 }
-
 .train-head-detail {
     font-weight: 300;
     color: #1A406B;
     font-style: normal;
 }
-
 .benefits-list {
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
 }
-
 .train-benefits {
     display: flex;
 }
-
 .benefits-list ul li {
     padding: 10px 0px;
     color: #1A406B;
 }
-
 .benefits-icon {
     width: 18px;
     padding-right: 5px;
 }
-
 .train-with-us-illustration {
     flex-basis: 45%;
 }
-
 .train-with-us-illustration img {
     width: 100%;
 }
-
 .sponsor-section {
     background: #EFFDFE;
 }
-
 .main-sponsor {
     margin-top: 20px;
 }
-
 .sponsor-head {
     text-transform: uppercase;
     color: #1A406B;
     font-size: 25px;
 }
-
 .sponsor {
     display: flex;
     width: 100%;
 }
-
 .sponsor-details {
-    font-size: 18px;
     flex-basis: 60%;
-    letter-spacing: 2px;
 }
-
 .sponsor-details-p {
+    letter-spacing: 2px;
     padding-right: 5px;
     margin-top: 15px;
     margin-bottom: 25px;
 }
-
 .sponsor-logo {
     flex-basis: 40%;
 }
-
 .sponsor-logo img {
-    width: 100%;
     margin-top: 25px;
 }
-
 .cohort {
     color: #1A406B;
 }
-
 .input-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
     margin-top: 15px;
 }
-
 .red-txt {
     color: #E7332B;
 }
-
 .form-label {
     font-size: 14px;
 }
-
 .form-input {
     display: block;
     width: 100%;
     padding: 10px 15px;
     margin-top: 7px;
 }
-
 .form-select {
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -278,57 +233,45 @@ a {
     background-position: 98% center;
     background-size: 10px;
 }
-
 .option-light {
     opacity: .8;
 }
-
 option {
     background: #ffffff;
     color: #1A406B;
 }
-
 .footer {
     background: #EFFDFE;
     color: #1A406B;
 }
-
 .footer-flex {
     display: flex;
     justify-content: space-between;
 }
-
 .footer-ul {
     margin-top: 35px;
 }
-
 .footer-title {
     font-size: 25px;
     border-bottom: 1px solid #1A406B;
     padding-bottom: 10px;
 }
-
 .footer-info-label {
     border-left: 3px solid #E7332B;
     padding-left: 5px;
     margin-bottom: 40px;
 }
-
 .footer-small {
     display: block;
     margin-bottom: 15px;
     opacity: .8;
 }
-
 .footer-li {
     margin-bottom: 10px;
 }
-
 .copyright {
     text-align: center;
 }
-
-
 
 @media (max-width: 786px) {
     .logo-img {
@@ -337,12 +280,10 @@ option {
     .hamburg {
         display: block;
     }
-
     .nav-ul {
         display: none;
         height: 0;
-    }
-    
+    }    
     .nav-ul.show {
         display: flex;
         height: fit-content;
@@ -362,20 +303,9 @@ option {
         margin-top: 5px;
         margin-bottom: 25px;
     }
-    
-    .train-with-us {        
-        width: 100%;
-    }
-
     .benefits-list ul li {
         padding: 8px 0px;
-    }
-    
-    .sponsor-head {
-        padding-bottom: 10px;
-        font-size: 25px;
-    }
-
+    }    
 }
 
 @media (max-width: 576px) {
