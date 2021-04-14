@@ -5,9 +5,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-}
-
 ul {
     list-style: none;
 }
@@ -16,10 +13,6 @@ a {
     display: inline-block;
     text-decoration: none;
     color: inherit;
-}
-
-a:hover {
-    /* text-decoration: underline; */
 }
 
 .container {
@@ -73,7 +66,6 @@ a:hover {
 }
 
 .nav-links {
-    /* color: #5F6368; */
     padding: 2px 10px;
 }
 
@@ -81,10 +73,8 @@ a:hover {
     border: none;
     border-radius: 2px;
     padding: 8px 20px;
-    /* background-color: #F8F9FA; */
     background: #E7332B;
     color: #FFFFFF;
-    /* border-bottom: 1px solid #DADCE0; */
 }
 
 .header {
@@ -109,7 +99,6 @@ a:hover {
 
 .nav-ul {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     margin-left: -18px;
     margin-right: -18px;
@@ -122,8 +111,6 @@ a:hover {
 .active {
     border-bottom: 5px solid #E7332B;
 }
-
-
 
 .home {
     background: #EFFDFE;
@@ -147,7 +134,6 @@ a:hover {
     margin-bottom: 30px;
 }
 
-
 .intro-note {
     margin-bottom: 30px;
 }
@@ -156,11 +142,9 @@ a:hover {
     flex-basis: 45%;
 }
 
-
 .home-illustration {
     width: 100%;
 }
-
 
 .why {
     display: flex;
@@ -169,40 +153,28 @@ a:hover {
 }
 
 .train-with-us {
-    /* background: #FFF; */
-    /* width: 50%; */
-    /* overflow: unset; */
     flex-basis: 55%;
 }
 
 .train-head {
     text-transform: uppercase;
     color: #000;
-    /* font-weight: 600; */
-    /* padding-top: 40px; */
-    /* padding-left: 60px; */
-    /* padding-bottom: 10px; */
     font-size: 20px;
 }
 
 .train-head-intro {
     font-size: 20px;
-    /* line-height: 45px; */
     color: #1A406B;
     padding-bottom: 25px;
 }
 
 .train-head-detail {
     font-weight: 300;
-    /* font-size: 20px; */
-    /* line-height: 30px; */
     color: #1A406B;
     font-style: normal;
 }
 
 .benefits-list {
-    /* float: left; */
-    /* width: 50%; */
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -212,14 +184,7 @@ a:hover {
     display: flex;
 }
 
-/* .train-benefits:after {
-    content: "";
-    display: table;
-    clear: both;
-} */
-
 .benefits-list ul li {
-    list-style: none;
     padding: 10px 0px;
     color: #1A406B;
 }
@@ -227,11 +192,6 @@ a:hover {
 .benefits-icon {
     width: 18px;
     padding-right: 5px;
-}
-
-.train-with-us-illustration {
-    size: 500px;
-    /* margin: 50px; */
 }
 
 .train-with-us-illustration {
@@ -253,54 +213,34 @@ a:hover {
 .sponsor-head {
     text-transform: uppercase;
     color: #1A406B;
-    /* font-weight: 600; */
-    /* padding-top: 40px; */
-    /* padding-left: 60px; */
-    /* padding-bottom: 10px; */
     font-size: 25px;
 }
 
 .sponsor {
     display: flex;
     width: 100%;
-    /* padding: 30px 60px; */
 }
 
 .sponsor-details {
-    /* width: 70%; */
     font-size: 18px;
-    flex-basis: 70%;
+    flex-basis: 60%;
     letter-spacing: 2px;
-    /* line-height: 30px; */
 }
 
 .sponsor-details-p {
-    /* width: 70%; */
-    /* max-width: 500px; */
-    /* font-size: 20px; */
-    /* flex-basis: 70%; */
-    /* line-height: 30px; */
-    padding-right: 15px;
+    padding-right: 5px;
     margin-top: 15px;
     margin-bottom: 25px;
 }
 
 .sponsor-logo {
-    /* width: 300px; */
-    flex-basis: 30%;
+    flex-basis: 40%;
 }
 
 .sponsor-logo img {
-    /* width: 300px; */
     width: 100%;
     margin-top: 25px;
-    /* flex-basis: 25%; */
 }
-
-
-
-
-
 
 .cohort {
     color: #1A406B;
@@ -347,10 +287,6 @@ option {
     color: #1A406B;
 }
 
-
-
-
-
 .footer {
     background: #EFFDFE;
     color: #1A406B;
@@ -368,7 +304,6 @@ option {
 .footer-title {
     font-size: 25px;
     border-bottom: 1px solid #1A406B;
-    /* width: fit-content; */
     padding-bottom: 10px;
 }
 
@@ -421,7 +356,6 @@ option {
         flex-basis: 50%;
     }
     .intro-head {
-        /* font-size: 30px; */
         font-size: 25px;
         max-width: 300px;
         margin-top: 5px;
@@ -429,34 +363,13 @@ option {
     }
     
     .why {
-        /* height: 80vh; */
-        /* padding: 15px 20px; */
-        /* display: inline-block; */
-        /* justify-content: space-between; */
         width: 100%;
         display: flex;
-        /* flex-direction: column-reverse; */
     }
 
-    .train-with-us {
-        /* background: #FFF; */
-        
+    .train-with-us {        
         width: 100%;
     }
-
-    .train-head {
-        /* text-transform: uppercase; */
-        /* color: #000; */
-        /* font-weight: 600; */
-        /* padding-bottom: 20px; */
-        /* padding-left: 20px; */
-    }
-
-    .train-head-intro {
-        /* font-weight: 400; */
-        /* font-size: 30px; */
-        /* line-height: 35px; */
-    }    
 
     .benefits-list ul li {
         padding: 8px 0px;
