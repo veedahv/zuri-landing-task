@@ -186,7 +186,6 @@ a {
 }
 .sponsor {
     display: flex;
-    width: 100%;
 }
 .sponsor-details {
     flex-basis: 60%;
@@ -202,6 +201,7 @@ a {
 }
 .sponsor-logo img {
     margin-top: 25px;
+    width: 100%;
 }
 .cohort {
     color: #1A406B;
