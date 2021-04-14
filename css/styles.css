@@ -459,38 +459,13 @@ option {
     }    
 
     .benefits-list ul li {
-        /* list-style: none; */
         padding: 8px 0px;
-        /* color: #1A406B; */
-    }
-    .train-with-us-illustration {
-        /* padding-top: 400px; */
-        /* size: 500px; */
-        /* margin: auto; */
-    }
-    
-    .train-with-us-illustration img {
-        /* width: 50%; */
-    }
-
-    .main-sponsor {
-        /* background: #E5E5E5; */
     }
     
     .sponsor-head {
-        /* font-weight: 600; */
-        /* padding-top: 40px; */
-        /* padding-left: 60px; */
         padding-bottom: 10px;
         font-size: 25px;
     }
-    
-    .sponsor {
-        /* display: flex; */
-        width: 100%;
-        /* padding: 30px 60px; */
-    }
-    
     .sponsor-details {
         width: 100%;
         font-size: 10px;
@@ -509,23 +484,13 @@ option {
     .container {
         padding: 40px 15px;
     } 
-    .home-body {
+    .home-body,
+    .why,
+    .sponsor,
+    .footer-flex {
         flex-direction: column;
-    }
-    
-    .why {
-        flex-direction: column;
-    }
-    .benefits-list {
-        /* float: left; */
-        width: 100%;
-        /* padding-right: 10px; */
-        /* padding-bottom: 10px; */
     }
     .input-grid {
         grid-template-columns: 1fr;
-    }
-    .footer-flex {
-        flex-direction: column;
     }
 }
