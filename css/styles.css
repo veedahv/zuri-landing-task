@@ -68,7 +68,8 @@ a {
     padding: 8px 20px;
     background: #E7332B;
     color: #FFFFFF;
-    width: 200px;
+    width: 150px;
+    text-align: center;
 }
 .header {
     background: #EFFDFE;
@@ -212,6 +213,7 @@ a {
     grid-template-columns: 1fr 1fr;
     gap: 15px;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 .red-txt {
     color: #E7332B;
