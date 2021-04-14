@@ -159,13 +159,14 @@ a {
 .train-head {
     text-transform: uppercase;
     color: #000;
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 25px;
 }
 
 .train-head-intro {
-    font-size: 20px;
+    font-size: 18px;
     color: #1A406B;
-    padding-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .train-head-detail {
@@ -362,11 +363,6 @@ option {
         margin-bottom: 25px;
     }
     
-    .why {
-        width: 100%;
-        display: flex;
-    }
-
     .train-with-us {        
         width: 100%;
     }
